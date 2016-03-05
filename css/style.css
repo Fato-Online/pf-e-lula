@@ -1,0 +1,109 @@
+body, html{
+	height: 100%;
+}
+
+.home{
+	height: 100%;
+	background: #000;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+
+.home h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 90px;
+	margin-top: -30px;
+	opacity: 0;
+}
+
+#img-home{
+	opacity: 0;
+	margin-top: -80px;
+}
+
+.home #img-home img{
+	width: 39%;
+}
+
+#btn-baixo{
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.time-line{
+	height: 100%;
+	min-height: 800px;
+	background: #000;
+	overflow: hidden;
+}
+
+.equipe{
+	text-align: center;
+	padding: 20px 0px 50px 0px;
+}
+
+/*SOCIAL*/
+.nav-social{
+  z-index: 999;
+  text-transform: uppercase;
+  color: white;
+  position: fixed;
+  right: 0;
+  top:50%;
+  bottom: 0;
+}
+
+.nav-social li{
+  list-style: none;
+}
+
+.nav-social img{
+  width: 40px;
+}
+
+
+/*TABLET*/
+@media (max-width: 991px) {
+
+}
+
+/*CELULAR PAISAGEM*/
+@media (max-width: 767px) {
+	.home h1{
+		font-size: 30px;
+	}
+
+	.home #img-home img{
+		width: 35%;
+	}
+
+	.time-line{
+		min-height: 0px;
+	}
+	.nav-social{
+		  right: 20px;
+		  top:30%;
+	}
+}
+
+/*CELULAR RETRATO*/
+@media (max-width: 479px) {
+	.home h1{
+		font-size: 70px;
+	}
+
+	.home #img-home img{
+		width: 80%;
+	}
+
+	.time-line{
+		height: 50%;
+		min-height: 0px;
+	}
+	.nav-social{
+		  right: 20px;
+		  top:30%;
+	}
+}
