@@ -37,6 +37,7 @@ body, html{
 	min-height: 800px;
 	background: #000;
 	overflow: hidden;
+	margin: 0 auto;
 }
 
 .equipe{
